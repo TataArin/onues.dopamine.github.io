@@ -1,0 +1,590 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> 원어스 - ONEUS </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:ital@1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Delicious+Handrawn&family=Righteous&family=Sono:wght@300;500&family=Volkhov:ital@1&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Delicious+Handrawn&family=Poiret+One&family=Righteous&family=Sono:wght@300;500&family=Volkhov:ital@1&display=swap"
+        rel="stylesheet">
+
+
+    <html>
+
+    <head>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            header {
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 40px;
+                background: white;
+
+
+            }
+
+            #logo {
+                position: absolute;
+                top: 00px;
+                left: 30px;
+                width: 200px;
+                height: 60px;
+                font-family: 'Cinzel Decorative', cursive;
+                font-size: 50px;
+                text-align: center;
+                line-height: 60px;
+            }
+
+
+            .botones {
+                float: right;
+                width: 50px;
+                margin-right: 5px;
+                margin-left: 5px;
+                height: 10px;
+                text-decoration: none;
+                font-weight: 200;
+                color: #486f99;
+                padding-top: 15px;
+                padding-bottom: 3px;
+                padding-left: 15px;
+                padding-right: 25px;
+                background-color: white;
+                border: 2px solid #c4d2e7;
+                border-style: solid;
+                border-radius: 50px;
+                font-family: 'Righteous', cursive;
+                font-size: 15px;
+                text-align: center;
+                line-height: 00px;
+
+
+            }
+
+            a .botones:hover {
+
+                background-color: #e2e8f3;
+
+            }
+
+            nav {
+                position: relative;
+                margin: auto;
+                width: 1000px;
+                height: 11px;
+                background: #5379a4;
+            }
+
+            .redes {
+                position: relative;
+                width: 100px;
+                height: 30px;
+                background: #e4f4fd;
+                margin: 0px 2px;
+                font-family: 'Righteous', cursive;
+                font-size: 15px;
+                text-align: center;
+                line-height: 40px;
+                color: #486f99;
+                border: 1px solid #486f99;
+                border-style: solid;
+                border-radius: 10px;
+            }
+
+            #icono1 {
+                top: 22px;
+                left: 120px;
+            }
+
+            #icono2 {
+                top: -08px;
+                left: 240px;
+            }
+
+            #icono3 {
+                top: -40px;
+                left: 360px;
+            }
+
+            #icono4 {
+                top: -73px;
+                left: 500px;
+            }
+
+            #icono5 {
+                top: -105px;
+                right: -650px;
+            }
+
+            #icono6 {
+                top: -135px;
+                right: -820px;
+            }
+
+            a .redes:hover {
+
+                background-color: white;
+            }
+
+            section {
+
+                position: relative;
+                top: -120px;
+                margin: auto;
+                width: 1000px;
+                height: 450px;
+                background: #c4d2e7;
+
+            }
+
+            aside#izq {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 130px;
+                height: 450px;
+                background: #486f99 style="width:200px;height:200px;";
+            }
+
+
+            .dp-image {
+
+                position: absolute;
+                left: 00px;
+                top: -13px;
+                width: 420px;
+                height: 420px;
+                border: 30px solid white;
+                background: ;
+                opacity: ;
+
+            }
+
+            aside#der {
+                position: absolute;
+                right: 30px;
+                top: 22px;
+                width: 450px;
+                height: 220px;
+                border: 2px solid white;
+                background: ;
+                opacity: ;
+                font-family: 'Poiret One', cursive;
+
+
+            }
+
+            .dertext {
+
+                position: relative;
+            }
+
+            .bg-image {
+
+                opacity: 0.2;
+
+            }
+
+            .bg-img-title {
+
+                position: absolute;
+                top: 30px;
+                left: 20px;
+
+            }
+
+            .parrafo {
+
+                position: absolute;
+                top: 10px;
+                left: 00px;
+
+            }
+
+            aside#der h1 {
+
+                position: relative;
+                top: -210px;
+                text-align: center;
+                margin-bottom: 5px;
+                font-family: 'IM Fell DW Pica', serif;
+
+                right: 10px;
+            }
+
+            aside#der h2 {
+
+                position: relative;
+                top: -110px;
+                text-align: center;
+                margin-bottom: 5px;
+                font-family: 'IM Fell DW Pica', serif;
+
+                right: 10px;
+            }
+
+            aside#der p {
+
+                position: relative;
+                margin: 5px;
+                left: 20px;
+                position: relative;
+                top: 10px;
+                font-size: 15px;
+                text-align: justify;
+                color: black;
+            }
+
+
+            aside#der input {
+                position: relative;
+                top: -105px;
+                padding: 10px;
+                margin: 5px 0;
+                width: 80px;
+                font-family: 'Righteous', cursive;
+
+            }
+
+            aside#der input[type="text"] {
+                background: url(usuario.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+
+            aside#der input[type="password"] {
+                background: url(password.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+
+            aside#der input[type="submit"] {
+                width: 80px;
+                background: #5086c1;
+                border: 0;
+            }
+
+
+            #top {
+
+                position: relative;
+                top: 500px;
+                width: 1000px;
+                height: 400px;
+                font-family: 'Gideon Roman', cursive;
+
+            }
+
+            #top ul {
+                top: 50px;
+                width: 1000px;
+                height: 190px;
+
+            }
+
+            #top ul li {
+
+                top: 150px;
+                float: left;
+                width: 320px;
+                height: 198px;
+                margin-right: 10px;
+                text-align: center;
+            }
+
+            #top ul li img {
+
+                border-radius: 100%;
+                height: 150px;
+            }
+
+            #top ul li h1 {
+
+                top: 350px;
+                font-family: 'Gideon Roman', cursive;
+
+            }
+
+            #top ul li p {
+
+                top: 350px;
+                font-size: 14px;
+                margin: 10px;
+                font-family: 'Flamenco', cursive;
+
+            }
+
+
+            footer {
+                position: relative;
+                top: 900px;
+                margin: 20px auto;
+                width: 1000px;
+                height: 200px;
+                background: #486f99;
+                text-align: center;
+                line-height: 70px;
+                font-family: 'Gideon Roman', cursive;
+
+            }
+
+            .Contact {
+
+                position: relative;
+                top: -30px;
+                text-align: center;
+                line-height: 70px;
+
+            }
+
+            .num {
+
+                position: relative;
+                top: -290px;
+                text-align: center;
+                line-height: 70px;
+
+            }
+
+            .email {
+
+                position: relative;
+                top: 1px;
+                text-align: center;
+                line-height: 70px;
+            }
+
+            aside#derech {
+                position: absolute;
+                top: -120px;
+                right: 10px;
+
+
+            }
+
+            aside#derech ul li a {
+                text-decoration: none;
+
+            }
+
+
+            aside#izqbajo {
+                position: absolute;
+                right: 860px;
+                top: -10px;
+               
+            }
+
+            aside#izqbajo ul li a {
+                
+                position: relative;
+                top: -30px;
+                width: 3px;
+                height: 10px;
+                font-family: 'Righteous', cursive;
+                font-size: 13px;
+                text-align: center;
+                line-height: 20px;
+                color: #5379a4;
+
+            }
+
+            aside#izqbajo ul li {
+                background: #c4d2e7;
+                padding: 10px;
+                width: 20px;
+               height: 15px;
+               border-radius: 100px;
+                margin: 5px 5px;
+            
+            }
+
+        </style>
+
+    <body>
+
+
+        <div id="chat"> </div>
+
+
+        <header>
+
+            <div id="logo"> ONEUS </div>
+
+            <ul>
+
+                <a href="https://oneus.fandom.com/wiki/ONEUS/Gallery">
+                    <li class="botones">multimedia</li>
+                </a>
+                <a href="https://open.spotify.com/artist/3CVYSpM7nfHFG5qCTW7Ht9?autoplay=true">
+                    <li class="botones">discografia</li>
+                </a>
+                <a href="https://www.noraemagazine.com/2020/03/28/conoce-a-oneus/">
+                    <li class="botones">miembros</li>
+                </a>
+                <a href="https://es.wikipedia.org/wiki/Oneus">
+                    <li class="botones">inicios</li>
+                </a>
+            </ul>
+
+
+        </header>
+
+        <nav>
+
+            <ul>
+                <a href="https://www.dipe.co.kr/">
+                    <div id="icono1" class="redes"> Noticias</div>
+                </a>
+                <a href="http://www.rbbridge.com/" class="social-icon-link bi-twitter">
+                    <div id="icono2" class="redes">Agencia</div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=sDO8MBi8nC8">
+                    <div id="icono3" class="redes">Cover</div>
+                </a>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1E4nvi79vhStBw">
+                    <div id="icono4" class="redes"> Programas Rd</div>
+                </a>
+                <a href="https://drama.fandom.com/es/wiki/Road_to_Kingdom">
+                    <div id="icono5" class="redes">Programas TV</div>
+                </a>
+                <a href="https://www.setlist.fm/setlists/oneus-5bc95f60.html">
+                    <div id="icono6" class="redes">Tour's</div>
+                </a>
+            </ul>
+
+
+            <section>
+
+                <aside id="izq">
+
+                    <img src="Dopamine, O.jpg"
+                        alt="" class="dp-image" width="420px" height="420px" />
+
+
+                </aside>
+
+
+                <aside id="der">
+
+                    <div class="dertext">
+                        <img src="C:\Users\Alex\Documents\Universidad\2 semestre\Tec. en bibliotecas\HTML, curso\25-31\Imagen\azul.jpg"
+                            alt="" class="bg-image" width="450px" height="220px" />
+
+                        <h1 class="bg-img-title">INTRODUCCIÓN
+
+                            <p class="parrafo">
+                                ONEUS es un grupo masculino surcoreano, formado
+                                <br>
+                                por RBW en 2019 y se compone de cinco integrantes:
+                                <br>
+                                Seoho, Leedo, Keonhee, Hwanwoong y Xion.
+                                <br>
+                                <br>
+                                El grupo Oneus debutó el 9 de enero de 2019 con el
+                                <br>
+                                miniálbum Light Us.
+                                <br>
+                                El 27 de octubre de 2022, se anunció que Ravn
+                                <br>
+                                había decidido abandonar voluntariamente su grupo.
+                            </p>
+                        </h1>
+                    </div>
+
+                    <h2> Ingreso </h2>
+                    <form>
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <input type="submit" value="Enviar">
+
+                    </form>
+
+
+                </aside>
+
+                <div id="top">
+                    <ul>
+                        <li>
+                            <img src="1st TW.jpg"  width="150">
+                            <h1> ONEUS 1st World Tour "Reach For Us" 2022-2023 </h1>
+                            <p> Tras su último éxito "Same Scent", su agencia RBW ha anunciado su primer tour mundial
+                                que dará inicio el 29 de octubre en: Seúl, Corea del Sur - Blue Square Mastercard Hall y
+                                terminará el 15 Febrero - São Paulo, Brasil - Audio Club. </p>
+                        </li>
+                        <li>
+                            <img src="Album.png"
+                                width="150">
+                            <h1> DEPAMINE</h1>
+                            <p> Depamine, es el titulo principal de su primer album completo japonés; al mismo tiempo,
+                                ser
+                                el primer trabajo realizado por los cinco chicos después de la salida de su rapero y
+                                compositor principal. </p>
+                        </li>
+                        <li>
+                            <img src="aniversario.jpg"
+                                width="150">
+                            <h1> 4TO ANIVERSARIO</h1>
+                            <p> El cuarto aniversario se acerca, ¡Este atento a los eventos próximos! </p>
+                        </li>
+
+                        </aside>
+
+                        </article>
+
+                        </secction>
+
+
+        </nav>
+
+        <footer> &copy; Todos los derechos reservados
+
+            <div class="contact">
+                <h4 class="Contact">B1~1F, 7 Janghan-ro 20-gil, Janga.</h4>
+                <div class="num">
+                    <h4> T. 82. 2. 517. 5748 </h4>
+                    <div class="email">
+                       <h4> <a href="http://www.rbbridge.com/"> rbw@officialONEUS.com </a> </h4>
+                         
+
+
+                        <aside id="derech">
+                            <ul>
+
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101290.56343202264!2d126.96637798707582!3d37.500131732902915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb9c5de47fcf%3A0xe4e8a05e73460b37!2sRBW%20Entertainment!5e0!3m2!1ses!2smx!4v1677976617370!5m2!1ses!2smx"
+                                    idth="100%" height="150" width="150" allowfullscreen="" loading="lazy"> </iframe>
+
+                            </ul>
+
+                            <aside id="izqbajo">
+                                <ul>
+                                    <li> <a href="https://www.facebook.com/officialONEUS/?locale=es_LA"> FB </a> </li>
+                                    <li> <a href="https://www.youtube.com/c/ONEUS/videos"> TWT </a> </li>
+                                    <li> <a href="https://twitter.com/official_ONEUS"> IG </a> </li>
+                                    <li> <a href="https://www.youtube.com/@ONEUS"> YT </a> </li>
+
+                                </ul>
+
+
+                            </aside>
+        </footer>
+
+    </body>
+
+    </html>
